@@ -11,12 +11,12 @@ function Hello() {
     const AfterClick = "Hi ..!";
     const beforeClick = "";
     return (
-         <View style={styles.container}>
+        <View style={styles.container}>
             <Text>{SayHi ? AfterClick : beforeClick}</Text>
             <Button
                 title={ SayHi ? 'Back' : 'Click me to say Hi' }
                 onPress={() => { dispatch(demoAction()) }} />
-       </View>
+        </View>
     )
 }
 const styles = StyleSheet.create({
