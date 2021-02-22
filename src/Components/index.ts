@@ -1,4 +1,4 @@
 /* eslint-disable import/prefer-default-export */
-const SAY_HI = 'SAY_HI';
+import { Hello } from './Hello';
 
-export { SAY_HI };
+export { Hello };

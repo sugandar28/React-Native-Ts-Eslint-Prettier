@@ -1,20 +1,16 @@
+/* eslint-disable import/prefer-default-export */
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { Provider } from 'react-redux';
+import store from "../Redux/Store";
+import { Home } from '../Pages';
 
 function App(){
     return (
-        <View style={styles.container}>
-            <Text>Open up App.tsx to start working on your app!</Text>
-        </View>
+     <Provider store={store}>
+         <Home/>    
+     </Provider>
     );
 }
 
-const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        backgroundColor: '#fff',
-        alignItems: 'center',
-        justifyContent: 'center'
-    }
-});
+
 export { App }; 
