@@ -1,4 +1,3 @@
-/* eslint-disable import/prefer-default-export */
 import 'react-native-gesture-handler';
 import React from 'react';
 

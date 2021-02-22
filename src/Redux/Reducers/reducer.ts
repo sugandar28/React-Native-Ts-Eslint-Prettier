@@ -1,4 +1,3 @@
-/* eslint-disable import/prefer-default-export */
 import { SAY_HI } from '../ActionTypes/actiontypes';
 
 const INITIAL_NAV: any = { SayHi: false };

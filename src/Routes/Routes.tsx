@@ -1,4 +1,3 @@
-/* eslint-disable import/prefer-default-export */
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
@@ -20,7 +19,7 @@ const routes = [
     routesObj.about,
 ];
 
-// ensure home is the last item in the list
+// ensure home is the first item in the list
 routes.unshift(routesObj.home);
 
 const Stack = createStackNavigator();

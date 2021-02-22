@@ -6,6 +6,9 @@ module.exports = {
     "prettier/@typescript-eslint",
     "prettier/react",
   ],
+  rules: {
+    "import/prefer-default-export": 0,
+  },
   overrides: [
     {
       files: ["*.ts", "*.tsx"], // Your TypeScript files extension

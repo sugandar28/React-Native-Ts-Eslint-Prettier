@@ -1,5 +1,3 @@
-/* eslint-disable @typescript-eslint/no-use-before-define */
-/* eslint-disable import/prefer-default-export */
 import React from 'react';
 import { StyleSheet, Text, View, Button } from 'react-native';
 import { useSelector, useDispatch } from 'react-redux';
@@ -11,6 +9,7 @@ function Hello() {
     const AfterClick = "Hi ..!";
     const beforeClick = "";
     return (
+        // eslint-disable-next-line @typescript-eslint/no-use-before-define
         <View style={styles.container}>
             <Text>{SayHi ? AfterClick : beforeClick}</Text>
             <Button

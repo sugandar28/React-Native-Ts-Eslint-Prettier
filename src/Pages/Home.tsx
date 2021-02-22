@@ -1,11 +1,11 @@
-/* eslint-disable import/prefer-default-export */
-/* eslint-disable @typescript-eslint/no-use-before-define */
+
 import React from 'react';
 import { View, Button, StyleSheet } from 'react-native';
 import {Hello} from '../Components'
 
 function Home({ navigation }:any) {
     return (
+        // eslint-disable-next-line @typescript-eslint/no-use-before-define
         <View style={styles.container}>
             <Hello />
             <Button
